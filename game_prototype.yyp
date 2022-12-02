@@ -10,6 +10,7 @@
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},"order":1,},
     {"id":{"name":"obj_pEnemy","path":"objects/obj_pEnemy/obj_pEnemy.yy",},"order":0,},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},"order":11,},
+    {"id":{"name":"Enemy_Spawner_OBJ","path":"objects/Enemy_Spawner_OBJ/Enemy_Spawner_OBJ.yy",},"order":2,},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":2,},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},"order":13,},
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},"order":18,},
@@ -99,7 +100,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "game_prototype",

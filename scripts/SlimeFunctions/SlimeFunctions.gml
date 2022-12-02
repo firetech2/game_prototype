@@ -173,6 +173,7 @@ function SlimeWander(){
 
 function SlimeDie()
 {
+	global.EXP++;
 	sprite_index = sprDie;
 	image_speed = 1.0;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);

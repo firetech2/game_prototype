@@ -7,6 +7,7 @@ global.targetY = -1;
 global.targetDirection = 0;
 global.playerHealthMax = 9.0;
 global.playerHealth = 9.0;
+global.EXP = 0;
 
 
 global.iCamera = instance_create_layer(0, 0, layer, obj_camera);

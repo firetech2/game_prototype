@@ -2,6 +2,7 @@ state = PlayerStateFree;
 hitByAttack = -1;
 
 collisionmap = layer_tilemap_get_id(layer_get_id("Collision"));
+global.playerHealth = global.playerHealthMax;
 
 image_speed = 0;
 hSpeed = 0;

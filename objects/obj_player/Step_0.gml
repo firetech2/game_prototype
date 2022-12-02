@@ -19,3 +19,20 @@ if (!global.gamePaused)
 
 depth = -bbox_bottom;
 
+if(global.EXP = 1){
+	global.EXP = 0;
+	rndNUM = random_range(1,3);
+	switch(rndNUM){
+		case 1:
+		global.playerHealth++
+		break;
+		case 2:
+		speedWalk = speedWalk + 0.2;
+		break;
+		case 3:
+		//dmg Increase
+		break;
+	}
+
+}
+
