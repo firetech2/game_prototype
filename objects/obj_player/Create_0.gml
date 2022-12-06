@@ -14,6 +14,7 @@ distanceBonk = 40;
 distanceBonkHeight = 12;
 speedBonk = 1.5;
 z = 0;
+damage = 5;
 
 invulnerable = 0;
 

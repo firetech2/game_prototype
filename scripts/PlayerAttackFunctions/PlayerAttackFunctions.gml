@@ -49,7 +49,7 @@ function CalcAttack()
 					
 					if (object_is_ancestor(object_index, obj_pEnemy))
 					{
-						HurtEnemy(id, 5, other.id, 10);
+						HurtEnemy(id, damage, other.id, 10);
 					}
 					else if (entityHitScript != -1) script_execute(entityHitScript);
 		
