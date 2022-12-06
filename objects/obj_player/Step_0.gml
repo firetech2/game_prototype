@@ -21,7 +21,7 @@ depth = -bbox_bottom;
 
 if(global.EXP = 1){
 	global.EXP = 0;
-	rndNUM = irandom_range(1,2);
+	rndNUM = irandom_range(1,3);
 	switch(rndNUM){
 		case 1:
 		global.playerHealth++
@@ -30,7 +30,7 @@ if(global.EXP = 1){
 		speedWalk = speedWalk + 0.02;
 		break;
 		case 3:
-		damage++;
+		global.damage++;
 		break;
 	}
 
